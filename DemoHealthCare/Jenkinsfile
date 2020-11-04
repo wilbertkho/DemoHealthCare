@@ -2,7 +2,7 @@
 // * July 23, 2020  - for Healthcare demo  (HCAZ) using RegiBrazil
 // Global variables
 // This is modified to use GitHub and DemoHealthCare repo
-    println "**Regi IF using VPN the gitHost must be physical IP"
+//    println "**Regi IF using VPN the gitHost must be physical IP"
 // ---------------------------Agents labels
 def linuxAgent = 'master'
 def agentLabel = 'zOSAgent'
