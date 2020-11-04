@@ -5,7 +5,7 @@
     println "**Regi IF using VPN the gitHost must be physical IP"
 // ---------------------------Agents labels
 def linuxAgent = 'master'
-def agentLabel = 'zOSAgentJ'
+def agentLabel = 'zOSAgent'
 // ---------------------------Verbose
 //def verbose = false
 def buildVerbose = ''
@@ -24,7 +24,8 @@ def gitCredId = '8e1d5827-1f44-4168-a2a1-f47f78e3ea92'
 //def gitCred = '8e1d5827-1f44-4168-a2a1-f47f78e3ea92'
 def gitCred = 'github.com'
 def gitOrg = 'wilbertkho'
-def srcGitBranch = 'sandbox'
+//def srcGitBranch = 'sandbox'
+def srcGitBranch = 'kho2'
 def gitHost = 'github.com'
 //def gitHost = '192.30.255.113'
 def srcGitRepo =     'git@'+gitHost+':'+gitOrg+'/DemoHealthCare.git'
