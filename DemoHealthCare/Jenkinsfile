@@ -23,7 +23,7 @@ def dbbGroovyzOpts= ''
 // ---------------------------- Git (GitHub)
 def gitCredId = '8e1d5827-1f44-4168-a2a1-f47f78e3ea92'
 //def gitCred = '8e1d5827-1f44-4168-a2a1-f47f78e3ea92'
-def gitCred = 'github.com'
+def gitCred = 'adcdmst_ssh'
 def gitOrg = 'wilbertkho'
 //def srcGitBranch = 'sandbox'
 def srcGitBranch = 'kho2'
