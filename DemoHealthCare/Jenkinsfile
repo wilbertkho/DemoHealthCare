@@ -150,6 +150,7 @@ pipeline { agent { label linuxAgent }
 			}
 		}
 // -------------------------------------------------------------------------
+	      /* --- Comment out Unit Test stage - wk
 		stage('Unit Tests') {
 			steps {
                                println "**Unit Test stage starts **"
@@ -185,6 +186,7 @@ pipeline { agent { label linuxAgent }
 				}
 			}
 		}
+		--- end of comment out Unit Tests stage - wk */
 // -------------------------------------------------------------------------
 	    /* Comment out Code coverage stage - wk  
 		stage('Code coverage gating') {
