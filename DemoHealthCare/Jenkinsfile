@@ -186,6 +186,7 @@ pipeline { agent { label linuxAgent }
 			}
 		}
 // -------------------------------------------------------------------------
+	    /* Comment out Code coverage stage - wk  
 		stage('Code coverage gating') {
 			steps {
 				script{
@@ -215,6 +216,7 @@ pipeline { agent { label linuxAgent }
 				        }
 			     }
 	                                      }
+		--- end commented stage - wk */			      
 // -------------------------------------------------------------------------
         stage('Push to UCD Code station') {
             steps {
