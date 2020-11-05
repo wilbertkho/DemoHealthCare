@@ -13,7 +13,8 @@ def buildVerbose = ''
 // ---------------------------Hosts and ports
 def linuxHost = '10.1.1.1'
 def zosHost = '10.1.1.2'
-def zosPort = '22'
+def zosPort = '1022'
+//def zosPort = '22'
 // ----------------------------DBB
 def dbbUrl = 'https://'+linuxHost+':11043/dbb'
 def dbbHlq = 'JENKINS'
