@@ -1,4 +1,4 @@
-      *   Inquire Patient    - Dec 14 2020 13:04
+      *   Inquire Patient    - Dec 14 2020 20:51
       *   change  obtain Patient's details from database.              *
       * Patient Inquire Business logic                                 *
       ******************************************************************
